@@ -1,24 +1,18 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-// import './App.css'
+import "./App.css";
+import React from "react";
+import Header from "./components/Header/Header";
+import MainContent from "./components/MainContent/MainContent";
+import Footer from "./components/Footer/Footer";
+import ReactDOM from "react-dom";
 
 function App() {
   return (
-    <>
-      <div>
-        <h1>The Exchange HUB</h1>
-        <ul>
-          <li>Topics</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </div>
-      <div> 
-        <p>This is just a test page to understand react</p>
-      </div>
-    </>
-  )
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
