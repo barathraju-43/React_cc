@@ -4,15 +4,10 @@ import "./Header.css";
 
 export default function Header() {
   return (
-    <header>
-      <nav className="navbar">
-        <img src={logo} width="40px" />
-        <ul className="nav-items">
-          <li>Pricing</li>
-          <li>About</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
+    <nav className="navbar">
+      <img className="reactlogo" src={logo} />
+      <h1>ReactFacts</h1>
+      <p>React Course-Project 1</p>
+    </nav>
   );
 }
